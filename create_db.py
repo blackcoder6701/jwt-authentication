@@ -1,5 +1,5 @@
-from database import Base,engine
-from models import LoginUser
+from database.database import Base,engine
+from app.models.models import LoginUser
 
 
 Base.metadata.create_all(engine)
